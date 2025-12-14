@@ -32,11 +32,11 @@ battery_adc_pin = "vddh"
 
 # default profile for morse, tap dance and tap-hold keys:
 [behavior.morse]
-enable_flow_tap = false
-hold_timeout = "200ms"
-gap_timeout = "200ms"
-prior_idle_time = "50ms"
-hold_on_other_press = false
+# enable_flow_tap = false
+# hold_timeout = "200ms"
+# gap_timeout = "200ms"
+# prior_idle_time = "50ms"
+# hold_on_other_press = false
 
 [split]
 connection = "ble"
